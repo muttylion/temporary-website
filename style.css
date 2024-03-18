@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Brasika';
+    src: url('./brasika-display.otf');
+}
+  
+@font-face {
+    font-family: 'Brittany';
+    src: url('./BrittanySignature.ttf');
+}  
+
+html {
+    overflow-x: hidden;
+    background-color: #FEF2F8;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'neue-haas-grotesk-display', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    width:100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: Brittany;
+    font-size: 4rem;
+    color: #E29EC5;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #152896;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #E29EC5;
+}
+
+li {
+    list-style-type: none;
+}
+
+#root {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#title {
+    font-size: 2rem;
+    font-family: Brasika;
+}
+
+.list-item {
+    margin-bottom: 0.25rem;
+}
